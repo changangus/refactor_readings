@@ -1,0 +1,19 @@
+{
+  "name": "refactoring_readings",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": "12.18.2"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest",
+    "test:coverage": "npm run test -- --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
