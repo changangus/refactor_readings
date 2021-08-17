@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverage: false,
   collectCoverageFrom: [
-    '<rootDir>/src/inventory/*.js',
+    '<rootDir>/src/*.js',
   ],
   moduleFileExtensions: ['js'],
   testPathIgnorePatterns: [

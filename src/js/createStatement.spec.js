@@ -11,7 +11,6 @@ You earned 47 credits
 
 describe('createStatement', () => {
   it('Should print result', () => {
-    console.log(result)
     expect(createStatement(invoice, plays)).toBe(result);
   })
 })
